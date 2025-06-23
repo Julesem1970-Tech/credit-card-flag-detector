@@ -1,5 +1,6 @@
 function detectFlag() {
   const number = document.getElementById('cardNumber').value.replace(/\D/g, '');
+  console.log("Número capturado:", number); // DEBUG
   const result = document.getElementById('result');
 
   let flag = 'Bandeira não reconhecida';
@@ -20,5 +21,6 @@ function detectFlag() {
     flag = 'JCB';
   }
 
+  console.log("Bandeira detectada:", flag); // DEBUG
   result.textContent = `💳 Bandeira detectada: ${flag}`;
 }
