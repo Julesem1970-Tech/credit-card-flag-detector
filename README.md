@@ -45,3 +45,11 @@ O objetivo deste projeto é criar uma aplicação capaz de **identificar a bande
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/credit-card-flag-detector.git
+
+--
+
+## ✍️ Autor
+
+Desenvolvido por **Jules Martins** como parte da formação na [Digital Innovation One](https://dio.me).
+
+[🔗 Meu GitHub](https://github.com/Julesem1970-Tech)
